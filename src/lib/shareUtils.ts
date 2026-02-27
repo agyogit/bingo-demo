@@ -20,7 +20,7 @@ export function buildShareText(game: GameState): string {
     `Time: ${duration} | Winning word: "${game.winningWord}"`,
     `${filled}/24 squares filled`,
     ``,
-    `Play at: https://meeting-bingo.vercel.app`,
+    `Play at: https://bingo-demo-three.vercel.app`,
   ].join('\n')
 }
 
