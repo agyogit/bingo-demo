@@ -1,7 +1,7 @@
 // =============================================
 // CATEGORY & WORDS
 // =============================================
-export type CategoryId = 'agile' | 'corporate' | 'tech'
+export type CategoryId = 'agile' | 'corporate' | 'tech' | 'kids' | 'sports' | 'olympics'
 
 export interface Category {
   id: CategoryId
